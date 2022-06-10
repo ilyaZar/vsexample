@@ -1,18 +1,17 @@
 {
   "configurations": [
     {
-      "name": "Mac",
+      "name": "Linux",
       "includePath": [
         "${workspaceFolder}/**",
-        "/Library/Frameworks/R.framework/Resources/include",
-        "/Library/Frameworks/R.framework/Versions/Current/Resources/library/cpp11/include"
+        "/home/iz/Dropbox/libraries/R/4.0/RcppArmadillo/include",
+        "/home/iz/Dropbox/libraries/R/4.0/Rcpp/include",
+        "/usr/share/R/include"
       ],
-      "macFrameworkPath": [
-        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
-      ],
-      "compilerPath": "/usr/bin/clang",
-      "cStandard": "c99",
-      "cppStandard": "c++11"
+      "defines": [],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu17",
+      "cppStandard": "gnu++14"
     }
   ],
   "version": 4
